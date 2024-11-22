@@ -1,0 +1,40 @@
+; Files to install
+File Copy: agreement.txt
+File Copy: 8-8000d.wav
+File Copy: 8-8000u.wav
+File Copy: 8-11025d.wav
+File Copy: 8-11025u.wav
+File Copy: 8-22050d.wav
+File Copy: 8-22050u.wav
+File Copy: 8-44100d.wav
+File Copy: 8-44100u.wav
+File Copy: 16-8000d.wav
+File Copy: 16-8000u.wav
+File Copy: 16-11025d.wav
+File Copy: 16-11025u.wav
+File Copy: 16-22050d.wav
+File Copy: 16-22050u.wav
+File Copy: 16-44100d.wav
+File Copy: 16-44100u.wav
+File Copy: CamRes2.dll
+File Copy: mfc100.dll
+File Copy: msvcp100.dll
+File Copy: msvcr100.dll
+File Copy: HomePage.url
+File Copy: HyCam2.exe
+File Copy: HyCam2.chm
+File Copy: HyCam2.tlb
+File Copy: MClick2.dll
+File Copy: readme.txt
+File Copy: hctoolbar.exe
+File Copy: Setup.exe  > HcUnInst.exe
+
+; Files to install if present and delete with uninstall
+File Copy: *.hc2lic
+File Copy: HyCam2.ini
+
+; Files to delete only, e.g. from old installs
+File Del: *.GID
+File Del: Hyperionics Home Page.url
+File Del: *.old
+
